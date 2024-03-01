@@ -14,5 +14,8 @@ If you would rather run these within the downloader or update_all scripts, add t
 db_url = https://raw.githubusercontent.com/MiSTer-unstable-nightlies/Unstable_Folder_MiSTer/main/db_unstable_nightlies_folder.json
 ```
 
+## Disclaimer
+Use these scripts at your own risk. I've been using them for more than a year but it's best to back up your sd card if you're unsure.
+
 ## Credit
 Thanks to VampierMSX for the original Playstation Update script that these are based upon
