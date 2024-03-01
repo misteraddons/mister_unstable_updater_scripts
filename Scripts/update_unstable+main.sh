@@ -72,6 +72,9 @@ done < $tmp/$unstableList
 
 echo "[Ok] Unstable cores all updated! Have fun"
 
+rm -f $rootDir/_Unstable/Saturn_SingleSDRAM_unstable_20231004_09df08.rbf
+rm -f $rootDir/_Unstable/Saturn_DualSDRAM_unstable_20231004_09df08.rbf
+
 #exit
 
 ####################################################################################################
