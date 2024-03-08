@@ -1,21 +1,16 @@
 # MiSTer Unstable and Test Core Updater Scripts
-These scripts are useful for quickly getting the latest work in progress cores.
+These scripts are useful for quickly getting the nightly core and MiSTer main binary files.
 
 ## Instructions
-Place these scripts within the `Scripts` folder of your micro sd card
-- update_unstable_n64.sh: downloads the latest N64 test cores, which aren't yet part of the MiSTer `unstable` repository
-- update_unstable.sh: downloads all `unstable` cores into an `_Unstable` folder on your micro SD card
-- update_unstable+main.sh: downloads all `unstable` cores into an `_Unstable` folder on your micro SD card, and also downloads and replaces the MiSTer binary with the latest unstable
+1) Place update_unstable.ini in main folder of sd card
+2) Place update_unstable.sh in Scripts folder of the sd card
+3) Place update_unstable_main.sh in Scripts folder of the sd card
 
-## Alternative
-If you would rather run these within the downloader or update_all scripts, add this to your `downloader.ini` file on your micro SD card:
-```
-[unstable_nightlies_folder]
-db_url = https://raw.githubusercontent.com/MiSTer-unstable-nightlies/Unstable_Folder_MiSTer/main/db_unstable_nightlies_folder.json
-```
+Note: unstable cores and unstable main binary are for bleeding edge testing and should not be used as the basis for bug reports  unless the core author is aware you're using nightly builds.
 
 ## Disclaimer
-Use these scripts at your own risk. I've been using them for more than a year but it's best to back up your sd card if you're unsure.
+Use these scripts at your own risk. Back up your important files before running.
 
 ## Credit
-Thanks to VampierMSX for the original Playstation Update script that these are based upon
+Thanks to theyspilon for creating the N64 unstable repository and guiding me through updating these scripts.
+Thanks to VampierMSX for the update_unstable_main.sh script
